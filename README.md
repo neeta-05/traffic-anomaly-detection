@@ -48,15 +48,13 @@ Files Included:
 ## Project Structure
 
 ```
-traffic_anamoly_predictions/
+traffic-anomaly-detection
 │
-├── Traffic_Anomaly_Detection.ipynb
 ├── data/
-│   ├── traffic_speed_data.csv
-│   ├── day_information_table.csv
-│   └── time_information_table.csv
-├── README.md      
-└── .gitignore    
+├── outputs/
+├── Traffic_Anomaly_Detection.ipynb
+├── README.md 
+└── .gitignore   
 ```
 
 ---
