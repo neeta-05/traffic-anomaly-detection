@@ -1,0 +1,23 @@
+{
+  "random_state": 42,
+  "selected_rank_k": 8,
+  "tucker_ranks": [
+    16,
+    14,
+    10
+  ],
+  "anomaly_rate": 0.02,
+  "severities": [
+    "mild",
+    "moderate",
+    "severe"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "numpy": "1.26.4",
+  "pandas": "2.1.4",
+  "scipy": "1.13.1"
+}

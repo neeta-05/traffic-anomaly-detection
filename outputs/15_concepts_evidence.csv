@@ -1,0 +1,10 @@
+concept,sections,evidence from this project
+Matrix representation,5,"X is 209 x 8,784: rows = roads, columns = (day, time) slots"
+Matrix rank,6,"full numerical rank 209, but 102 components for 95% energy (centred)"
+SVD,7,U S V^T reproduces Xc to 2e-15; mode 1 = network-wide speed level
+Low-rank approximation (Eckart-Young),8,rank 8 keeps 78.0% of the energy; error = sqrt(sum of discarded sigma^2)
+Frobenius norm,"5, 6, 8, 9, 12, 13",relative error ||Xc - X_hat||_F / ||Xc||_F = 0.469 at rank 8
+Perturbation (Weyl),10,max singular-value shift 115 <= ||E||_2 = 674
+PCA,11,identical to the SVD (largest gap 2e-12); adds SPE / T^2 monitoring
+"Tensor, unfolding, mode-n product",12,"tensor (209, 61, 144); mode-1 unfolding equals X; (T x_n A)_(n) = A T_(n) verified"
+Tucker / HOSVD / HOOI,13,"ranks (16, 14, 10): 9.1x fewer stored numbers than the matrix model"
